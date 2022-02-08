@@ -23,30 +23,49 @@
         <BR>
         </BR>
         LAST NAME:
-         <input type="text" NAME="NAME" placeholder="PLEASE ENTER YOUR LASTNAME" autocapitalize="">
+         <input type="text" NAME="NAME" placeholder="PLEASE ENTER YOUR LASTNAME" autocapitalize=""required="">
         <BR>
         </BR>
         PASSWORD:
-        <input type="password" NAME="PSW">
+        <input type="password" NAME="PSW"required="">
         <br/>
         <br/>
         <br/>
 
+<br/>
+
+                week:
+                <input type="week" name="">
+            <br/>
+            <br/>
+            month:
+            <input type="month" name="mnth">
+            <br/>
+            <br/>
+            calender:
+            <input type="date" name="calender">
+            <br/>
+            <br/>
+            time:
+            <input type="time" name="time">
+           <br/>
+           <br/>
+
         SEMSTER:
-<input type="number" NAME="SEM">
+<input type="number" NAME="SEM" required="">
 
 <br/>
 <br/>
 
         ADRESS:
 
-        <textarea>
+        <textarea required="">
         
     </textarea>
     <BR>
     </BR>
 DATE OF BIRTH:
-        <input type="datetime-local" NAME="DATE" autocapitalize="" autofocus="">
+        <input type="datetime-local" NAME="DATE" autocapitalize="" autofocus="" min="1" max="30">
         <BR>
         </BR>
         GENDER:
@@ -56,18 +75,18 @@ DATE OF BIRTH:
     </br>
     hobbies:
     
-    criket<input type="checkbox" name="chk" autofocus="" required="">
-    chess<input type="checkbox" name="chk" autofocus="" required="">
-    fotball<input type="checkbox" name="chk" autofocus="" required="">
-    hokey<input type="checkbox" name="chk" autofocus="" required="">
+    criket<input type="checkbox" name="chk" autofocus="" >
+    chess<input type="checkbox" name="chk" autofocus="" >
+    fotball<input type="checkbox" name="chk" autofocus="" >
+    hokey<input type="checkbox" name="chk" autofocus="" >
     <br/>
     <br/>
-    MOBILE number:
-    <input type="number" name="NUMBER" >
+    MOBILE NUMBER:
+    <input type="text" name="number" value="number" maxlength="10" required="">
     <BR>
     </BR>
     EMAIL ID:
-    <input type="email" NAME="email" placeholder="enter your email">
+    <input type="email" NAME="email" placeholder="enter your email" required="">
     <br/>
     <br/>
     STATE
@@ -83,7 +102,7 @@ DATE OF BIRTH:
             <option value="CHATISGARH">CHATISGARH</option> 
         
         
-        s
+        
 
 
     </select>
