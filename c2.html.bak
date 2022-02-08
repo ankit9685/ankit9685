@@ -5,13 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNIVERSITY FORM</title>
-    
-	
-	
 </head>
 <center>
-<body bgcolor ="yellow" color="white" > 
-    <form class >  
+<body bgcolor ="black" color="white"> 
+    <form>  
         <fieldset>
         <legend >
       REGISTRATION FORM
@@ -19,11 +16,11 @@
         <br/>
         <br/>
         FIRST NAME:
-         <input type="text" NAME="NAME" placeholder="PLEASE ENTER YOUR NAME" required="" autofocus="" autocapitalize="">
+         <input type="text" NAME="NAME" placeholder="PLEASE ENTER YOUR NAME" required="">
         <BR>
         </BR>
         LAST NAME:
-         <input type="text" NAME="NAME" placeholder="PLEASE ENTER YOUR LASTNAME" autocapitalize="">
+         <input type="text" NAME="NAME" placeholder="PLEASE ENTER YOUR LASTNAME">
         <BR>
         </BR>
         PASSWORD:
@@ -72,7 +69,7 @@ DATE OF BIRTH:
     <br/>
     STATE
     <select>
-       
+        <nav>
             <option value="MP">MP</option>
             <option value="UP">UP</option>
             <option value="HP">HP</option>
@@ -83,7 +80,7 @@ DATE OF BIRTH:
             <option value="CHATISGARH">CHATISGARH</option> 
         
         
-        s
+        </nav>
 
 
     </select>
