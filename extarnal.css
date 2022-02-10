@@ -1,0 +1,15 @@
+.main :hover
+{
+    background-color: black;
+    color: beige;
+    height: 100px;
+    width: 200px;
+    font-size: medium;
+    position: absolute;
+    text-align: center;
+    float: inherit;
+    word-spacing: 5px;
+    word-break: 2px;
+
+    
+}
