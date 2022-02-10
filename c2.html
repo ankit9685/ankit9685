@@ -19,11 +19,27 @@
         <br/>
         <br/>
         FIRST NAME:
-         <input type="text" NAME="NAME" placeholder="PLEASE ENTER YOUR NAME" required="" autofocus="" autocapitalize="">
+         <input type="text" NAME="NAME" placeholder="PLEASE ENTER YOUR NAME" required="" autofocus="" autocapitalize="" list="name">
+         <datalist id="name">
+             <option value="ankit">ankit</option>
+             <option value="ritesh">ritesh</option>
+             <option value="naveen">naveen</option>
+             <option value="abhay">abhay</option>
+             <option value="anuj">anuj</option>
+             <option value="anita">anita</option>         
+            </datalist>
         <BR>
         </BR>
         LAST NAME:
-         <input type="text" NAME="NAME" placeholder="PLEASE ENTER YOUR LASTNAME" autocapitalize=""required="">
+         <input type="text" NAME="NAME" placeholder="PLEASE ENTER YOUR LASTNAME" autocapitalize=""required="" list="last name">
+         <datalist id="last name">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>         
+           </datalist>
         <BR>
         </BR>
         PASSWORD:
@@ -82,7 +98,7 @@ DATE OF BIRTH:
     <br/>
     <br/>
     MOBILE NUMBER:
-    <input type="text" name="number" value="number" maxlength="10" required="">
+    <input type="number" value="nbr" maxlength="10" required="">
     <BR>
     </BR>
     EMAIL ID:
@@ -91,7 +107,7 @@ DATE OF BIRTH:
     <br/>
     STATE
     <select>
-       
+        <option value="STATE">STATE</option>        
             <option value="MP">MP</option>
             <option value="UP">UP</option>
             <option value="HP">HP</option>
@@ -122,13 +138,13 @@ DATE OF BIRTH:
     </fieldset><br/>
     
     </form>
-    <div class="main">
+    <div class="main" style="color: aqua;">
         <div>
-          <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vitae asperiores veritatis quas. Molestias ut, at ipsam dolore, voluptas excepturi vero repellat quod consequuntur sint temporibus perferendis iusto minima vitae?</article>
+          <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vitae asperiores veritatis quas. Molestias ut, at ipsam dolore, voluptas excepturi vero repellat quod consequuntur sint temporibus perferendis iusto minima vitae?</article></marquee>
         </div>
     </div>
 <div>
-    <footer><marquee behavior="bgcolor" direction="left to right">
+    <marquee behavior="bgcolor" direction="left to right"><footer>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Voluptates quam maiores quis corporis eveniet dicta fugit, 
         quasi, nemo sit repellat modi recusandae blanditiis 
