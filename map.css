@@ -1,0 +1,27 @@
+.map
+{
+    background:blanchedalmond;
+    color: aqua;
+    min-height: 200px;
+    font-size: medium;
+    position: relative;
+    float: left;
+}
+
+ .img :hover 
+ {
+     background-color: blueviolet;
+     text-align: center;
+     text-decoration: none;
+     font-size: smaller;
+     font-style: italic;
+     float: center;
+     
+    }
+.dd:hover
+{
+    
+    background: #000;
+    text-decoration: none;
+
+}
